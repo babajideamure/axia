@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+}
+
+body.light {
+  background-color: yellowgreen;
+  color: #1f2933;
+}
+
+body.dark {
+  background-color: #0f172a;
+  color: yellowgreen;
+}
+
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  background: yellowgreen;
+}
+
+body.dark .container {
+  background: #020617;
+}
+
+.tagline {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.announcement {
+  background: black;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
