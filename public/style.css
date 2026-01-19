@@ -4,13 +4,13 @@ body {
 }
 
 body.light {
-  background-color: red;
-  color: #1f2933;
+  background-color: purple;
+  color: gold;
 }
 
 body.dark {
   background-color: #0f172a;
-  color: red;
+  color: purple;
 }
 
 .container {
@@ -19,7 +19,7 @@ body.dark {
   padding: 40px;
   text-align: center;
   border-radius: 12px;
-  background: red;
+  background: purple;
 }
 
 body.dark .container {
@@ -33,7 +33,7 @@ body.dark .container {
 
 .announcement {
   background: black;
-  color: white;
+  color: gold;
   padding: 12px;
   border-radius: 8px;
   margin-bottom: 20px;
